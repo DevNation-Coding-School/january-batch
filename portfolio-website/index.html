@@ -12,6 +12,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Link Stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -26,11 +34,11 @@
         </a>
         <!-- Menu Items -->
         <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Recent</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#my-projects">Projects</a></li>
+          <li><a href="#client">Clients</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <!-- Contact Me Button -->
         <a href="#" class="get-in-touch">Get in touch</a>
@@ -38,7 +46,7 @@
     </section>
 
     <!-- Main Section -->
-    <div class="content">
+    <div class="content" id="home">
       <!-- div on the left-->
       <div class="model">
         <img class="img" src="imgs/raheel.jpg" alt="raheel ahmad" />
@@ -54,5 +62,153 @@
         <a href="" class="portfolio-button">Get in touch</a>
       </div>
     </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <!-- Skill Text -->
+      <div class="skill-text">
+        <!-- Skill Heading -->
+        <div class="skill-heading">
+          <span>My Skills</span>
+          <h2>My Expertise</h2>
+        </div>
+        <!-- Skill Description -->
+        <div class="s-box-container">
+          <!-- Skill Box 1 -->
+          <div class="skill-box">
+            <div class="s-box-icon">
+              <!-- Add icon code -->
+              <i class="fab fa-js-square"></i>
+            </div>
+            <div class="s-box-text">
+              <strong>JavaScript</strong>
+              <p>I am an expert in Javascript</p>
+            </div>
+          </div>
+          <!-- Skill Box 2 -->
+          <div class="skill-box">
+            <div class="s-box-icon">
+              <!-- Add icon code -->
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <div class="s-box-text">
+              <strong>CSS</strong>
+              <p>I am becoming an expert in CSS</p>
+            </div>
+          </div>
+          <!-- Skill Box 3 -->
+          <div class="skill-box">
+            <div class="s-box-icon">
+              <!-- Add icon code -->
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="s-box-text">
+              <strong>Python</strong>
+              <p>I am still learning Python</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Skill Image -->
+      <div class="skill-img">
+        <img src="imgs/skills-img.jpg" alt="skill image" />
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="my-projects">
+      <!-- Project Heading -->
+      <div class="skill-heading">
+        <span>Projects</span>
+        <h2>My Happy Clients</h2>
+      </div>
+      <!-- Project Showcase -->
+      <div class="project-showcase">
+        <div class="project one">
+          <div id="hide">
+            <p class="project-text">Coca Cola</p>
+            <a class="project-btn">Visit Website</a>
+          </div>
+        </div>
+        <div class="project two">
+          <div id="hide">
+            <p class="project-text">Coca Cola</p>
+            <a class="project-btn">Visit Website</a>
+          </div>
+        </div>
+        <div class="project three">
+          <div id="hide">
+            <p class="project-text">Coca Cola</p>
+            <a class="project-btn">Visit Website</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="client">
+      <!-- Heading -->
+      <div class="skill-heading">
+        <span>Testimonials</span>
+        <h2>Hear from my happy clients</h2>
+      </div>
+      <!-- Reviews -->
+      <div class="c-box-container">
+        <!-- Testimonial # 1 -->
+        <div class="client-box">
+          <img src="imgs/woman.svg" alt="testimonial_one" />
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+          </div>
+          <p>I had a great experience working with Muneeb</p>
+          <a href="#">Read More</a>
+        </div>
+        <!-- Testimonial # 2 -->
+        <div class="client-box">
+          <img src="imgs/bussiness-man.svg" alt="testimonial_one" />
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+          </div>
+          <p>I had a great experience working with Muneeb</p>
+          <a href="#">Read More</a>
+        </div>
+        <!-- Testimonial # 3 -->
+        <div class="client-box">
+          <img src="imgs/man.svg" alt="testimonial_one" />
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+          </div>
+          <p>I had a great experience working with Muneeb</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact US Section -->
+    <section id="contact">
+      <img src="imgs/contact.jpg" alt="contact us image" />
+      <h3>Let's work together - contact me</h3>
+      <div class="contact-input">
+        <input type="email" placeholder="raheel@thedevnation.com" />
+        <a href="">Let's Connect</a>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>imRaheel Official</p>
+      <p>Copyright 2022 - Raheel Ahmad (DevNation)</p>
+    </footer>
   </body>
 </html>
